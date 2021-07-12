@@ -1,8 +1,8 @@
-#RingCentral Download and Google Drive Upload
+# RingCentral Download and Google Drive Upload
 
 These two scripts download voicemails from RingCentral and then upload them to Google Drive.
 
-##Prerequisites and Dependencies
+## Prerequisites and Dependencies
 
 Python3 must be installed
 RingCentral must be installed `pip install ringcentral`
@@ -16,6 +16,6 @@ RingCentral ClientID, Secret, user and password must be specified in config_temp
 
 In the GDriveUpload folder, change the id value to the id of the corresponding folder in GDrive (last section of the URL) and the dir value to the directory that download.py downloaded to in config_template.yml and then change the name to config.yml in the same folder as upload.py
 
-##How To
+## How To
 
 Run download.py to download files locally to the download folder (default is RingCentral-script/RCDownload/download/, can rename DOWNLOADPATH in download.py to change download folder) in mp3 format, and then run upload.py to upload the files to Google Drive. When running upload.py, you will be prompted to log in to Google Drive.
