@@ -1,0 +1,8 @@
+user:
+    clientid: #enter your api client id
+    clientsecret:  #enter your api client secret
+    username:  #enter username number
+    password:  #enter RC password
+system:
+    monthstart:  #enter month start time in ISO 8601, example: '1970-01-19T14:25:22.800-05:00'
+    downloadpath: #enter path to download voicemails to
